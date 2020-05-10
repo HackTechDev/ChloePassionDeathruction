@@ -39,7 +39,9 @@ PlayState.preload = function() {
     this.game.load.audio('music', 'audio/bgm.mp3');
 
     this.game.load.spritesheet('coin', 'images/zombi.png', 24, 24,4);
-    this.game.load.spritesheet('spider', 'images/spider.png', 42, 32);
+    //this.game.load.spritesheet('spider', 'images/spider.png', 42, 32);
+    this.game.load.spritesheet('spider', 'images/enemy.png', 64, 64, 36);
+
     //this.game.load.spritesheet('hero', 'images/hero.png', 36, 42);
     this.game.load.spritesheet('hero', 'images/player.png', 64, 64, 36);
 

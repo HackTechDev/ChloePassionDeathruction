@@ -97,6 +97,8 @@ PlayState.spawnCharacters = function(data) {
 
 PlayState.spawnSpider = function(spider) {
     var sprite = new Spider(this.game, spider.x, spider.y);
+     console.debug(spider.x, spider.y);
+
     this.spiders.add(sprite);
 };
 
