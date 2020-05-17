@@ -26,7 +26,7 @@ function minifyScript() {
 
 function uploadSFTP() {
 
-    return src('htdocs/*')
+    return src('htdocs/**/*')
         .pipe(sftp({
             host: 'sftp.sd3.gpaas.net',
             user: '3579438',            
